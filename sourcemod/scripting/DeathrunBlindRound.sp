@@ -54,7 +54,7 @@ public Action Event_RoundStart(Event event, const char[] name, bool dontBroadcas
 	}
 	if(succeedNextRound)
 	{
-		ServerCommand("sm_blind @all 250");
+		ServerCommand("sm_blind @all 200");
 		PrintToChatAll(" \x0fBlind round enabled! All players are now blinded until the end of the round.");
 		succeedNextRound = false;
 	}else
